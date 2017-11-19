@@ -28,7 +28,7 @@ export default () => (
         }
       }}
     />
-    <VictoryAxis dependentAxis tickFormat={tick => tick + ' ºF'} />
+    <VictoryAxis dependentAxis tickFormat={tick => tick + ' ºC'} />
     <VictoryArea
       data={data}
       x="YearsBeforePresent"

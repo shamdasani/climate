@@ -24,7 +24,7 @@ export default () => (
     />
     <VictoryAxis
       dependentAxis
-      tickFormat={tick => tick + ' ºF'}
+      tickFormat={tick => tick + ' ºC'}
       style={{
         tickLabels: {
           fill: '#fff'
